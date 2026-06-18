@@ -16,6 +16,38 @@ Three — to detect threatening intent from speech using a machine learning clas
 Four — to combine both layers into one reliable system that minimizes false alarms.
 And five — to log every event automatically for audit and legal purposes.
 
+## Tech Stack
+
+- Python
+- TensorFlow
+- TensorFlow Hub (YAMNet)
+- Scikit-learn
+- SpeechRecognition
+- NumPy
+- SciPy
+- Joblib
+- SoundDevice
+
+  ## Installation
+
+git clone https://github.com/nishitapal/Real-Time_Audio_Threat_Detection_System.git
+
+cd Real-Time_Audio_Threat_Detection_System
+
+pip install -r requirements.txt
+
+## Run
+
+python real_time_prediction.py
+
+## Dataset Notice
+
+The training dataset is not included in this repository due to size limitations.
+
+The repository contains the trained models required for inference and real-time prediction.
+
+Dataset files used for training are available upon request.
+
 # Solution — VoiceGuard
 VoiceGuard is a dual-layer audio threat detection pipeline. It continuously listens through a microphone, processes 4-second audio chunks, and passes them through two independent detection layers — a tone model and an intent model — before making a final decision.
 
