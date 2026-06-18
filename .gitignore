@@ -1,0 +1,11 @@
+Preprocessed_Audios/
+VoiceGuard_Dataset/
+yamnet_local/
+*.zip
+*.rar
+*.log
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
+Thumbs.db
